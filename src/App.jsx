@@ -15,7 +15,19 @@ function App() {
   }, []);
   return (
     <>
-      <div style={{ position: "absolute", top: 0, left: 0, right: 0, bottom: 0,  zIndex: -1,backgroundImage: settings.bgImage ? `url(images/bg/${settings.bgImage})` : "none", backgroundColor: settings.bgColor, opacity: settings.bgOpacity}}></div>
+      <div style={{
+        position: "absolute",
+        top: 0,
+        left: 0,
+        right: 0,
+        bottom: 0,
+        zIndex: -1,
+        backgroundImage: settings.bgImage ? `url(images/bg/${settings.bgImage})` : "none",
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "center",
+        backgroundColor: settings.bgColor,
+        opacity: settings.bgOpacity
+      }}></div>
     <div className={`w-full min-h-screen`} style={{padding: settings.margin || "4px"}}>
         <ul className="grid grid-cols-3" style={{ gap: settings.buttonGap || "4px" }}>
       {items.map((item,idx) => (

@@ -54,7 +54,7 @@ app.on("activate", () => {
 // code. You can also put them in separate files and import them here.
 
 const json = fs.readFileSync(
-  path.join(__dirname, "../../src/items.json"),
+  path.join(__dirname, "../../src/config.json"),
   "utf8"
 );
 const config = JSON.parse(json);

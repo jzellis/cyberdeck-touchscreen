@@ -1,7 +1,7 @@
 {
     "settings": {
         "bgColor": "#000000",
-        "bgImage": "bg.jpg",
+        "bgImage": "splash.png",
         "bgOpacity": 0.5,
         "margin": "8px",
         "buttonGap": "8px",
