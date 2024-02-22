@@ -1,0 +1,31 @@
+{
+    "settings": {
+        "bgColor": "#000000",
+        "bgImage": "bg.jpg",
+        "bgOpacity": 0.5,
+        "margin": "8px",
+        "buttonGap": "8px",
+        "buttonBgColor": "rgba(255,255,255,0.25)",
+        "buttonTextColor": "white",
+        "buttonRadius": "0",
+        "buttonBorderWidth": "2",
+        "buttonBorderColor": "white"
+    },
+    "items": [
+        {
+            "label": "Terminal",
+            "command": "open /System/Applications/Utilities/Terminal.app",
+            "icon": "terminal.png"
+        },
+        {
+            "label": "Browser",
+            "command": "open /Applications/Firefox.app",
+            "icon": "firefox.png"
+        },
+        {
+            "label": "VS Code",
+            "command": "open /Applications/Visual\\ Studio\\ Code.app",
+            "icon": "vscode.png"
+        }
+    ]
+}
